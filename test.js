@@ -19,7 +19,7 @@ import express from 'express';
 
   // console.log(typeof imageUrls[0] === `string`); 检查imageUrls是否为字符串类型, 输出为true
 
-  // console.log(imageUrls);
+
 
   // 仅获取URL字符串中那些同时带有.webp和.jpg后缀的图片
   const filteredUrls = imageUrls.map(items => {
@@ -31,7 +31,7 @@ import express from 'express';
     }
   })
 
-  // console.log(filteredUrls);
+
 
   const filteredUrlswithurl = filteredUrls.filter(item => item !== ``); // 过滤掉空字符串
 
@@ -48,12 +48,6 @@ import express from 'express';
   })
 
 
-
-  // console.log(filteredUrlsWithIndex);
-  // 对获取到的图片URL进行渲染
-
-  // const content = document.querySelector(`.content`)
-  // content.innerHTML = filtercontent; // !!错误!!:这是在浏览器端将渲染后的内容插入到页面中,Nodejs端没有DOM对象
 
   // 在Node.js中解析HTML(爬虫，服务器端渲染)
   // 使用express框架将渲染结果发送到客户端(浏览器)
