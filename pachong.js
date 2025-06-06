@@ -1,4 +1,4 @@
-//使用爬虫获取网站数据
+//使用Nodejs库puppeteer获取b站数据
 import puppeteer from 'puppeteer';
 
 const browser = await puppeteer.launch({ headless: false })
