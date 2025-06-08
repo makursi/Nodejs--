@@ -1,3 +1,6 @@
+
+// File System内置模块
+
 // 用途:提供对文件系统的访问接口，可以用来读写文件，获取文件信息
 import { log } from 'node:console';
 import *as fs from 'node:fs/promises';
