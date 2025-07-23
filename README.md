@@ -64,5 +64,7 @@
     用途：用于处理流数据，如文件、网络请求等。
     流分为四种类型：Readable（可读）、Writable（可写）、Duplex（双工）、Transform（转换）。
 
+
+哈哈哈哈哈，我从地狱回来啦，哈哈哈哈
 ###通义ai大模型总结
 ![cute Carla](./Images/Carla%20(10).jpg)
